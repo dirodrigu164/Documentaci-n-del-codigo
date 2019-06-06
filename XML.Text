@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wallet.Web</name>
+    </assembly>
+    <members>
+        <member name="M:Wallet.Web.Contact.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Inicialización de las propiedades 
+            </summary>
+        </member>
+        <member name="M:Wallet.Web.Contact.btnEnviar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Método que envía como parámetros get la llave publica,de,para y BTC, 
+            además envía como parámetro consulta 1 si la transacción ha sido exitosa 
+            </summary>
+        </member>
+        <member name="M:Wallet.Web.Contact.btnBuscar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Método que consulta el saldo de la wallet y envía como parámetro get consulta=2
+            </summary>
+        </member>
+        <member name="M:Wallet.Web.Contact.btnTransaccion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Método que abre la transacción a otras wallet y envía por get consulta =3
+            </summary>
+        </member>
+        <member name="M:Wallet.Web.Contact.btnVolver_Click(System.Object,System.EventArgs)">
+            <summary>
+            Método que devuelve a la menú inicial
+            </summary>
+        </member>
+        <member name="F:Wallet.Web.Contact.divBotones">
+            <summary>
+            Control divBotones.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.lt">
+            <summary>
+            Control lt.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.btnTransaccion">
+            <summary>
+            Control btnTransaccion.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.btnBuscar">
+            <summary>
+            Control btnBuscar.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.divTransaccion">
+            <summary>
+            Control divTransaccion.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.txtDe">
+            <summary>
+            Control txtDe.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.txtPara">
+            <summary>
+            Control txtPara.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.txtBtc">
+            <summary>
+            Control txtBtc.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.btnEnviar">
+            <summary>
+            Control btnEnviar.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.divSaldo">
+            <summary>
+            Control divSaldo.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.txtSaldo">
+            <summary>
+            Control txtSaldo.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.divVolver">
+            <summary>
+            Control divVolver.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Contact.btnVolver">
+            <summary>
+            Control btnVolver.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="M:Wallet.Web._Default.btnRegistrar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Método con el que se crea el registro de la Wallet y se envía por get la llave publica,de,para y BTC. 
+            La llave publica se encuentra encriptada en SHA 256 que corresponde a las concatenación de las 12 palabras 
+            </summary>
+        </member>
+        <member name="F:Wallet.Web._Default.txtNombreWallet">
+            <summary>
+            Control txtNombreWallet.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa1">
+            <summary>
+            Control txtPa1.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa2">
+            <summary>
+            Control txtPa2.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa3">
+            <summary>
+            Control txtPa3.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa4">
+            <summary>
+            Control txtPa4.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa5">
+            <summary>
+            Control txtPa5.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa6">
+            <summary>
+            Control txtPa6.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa7">
+            <summary>
+            Control txtPa7.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa8">
+            <summary>
+            Control txtPa8.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa9">
+            <summary>
+            Control txtPa9.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa10">
+            <summary>
+            Control txtPa10.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa11">
+            <summary>
+            Control txtPa11.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.txtPa12">
+            <summary>
+            Control txtPa12.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web._Default.btnRegistrar">
+            <summary>
+            Control btnRegistrar.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.SiteMaster.MainContent">
+            <summary>
+            Control MainContent.
+            </summary>
+            <remarks>
+            Campo generado automáticamente.
+            Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Site_Mobile.HeadContent">
+            <summary>
+            HeadContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Site_Mobile.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Site_Mobile.FeaturedContent">
+            <summary>
+            FeaturedContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Wallet.Web.Site_Mobile.MainContent">
+            <summary>
+            MainContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>
